@@ -10,7 +10,6 @@ const Usetransition: React.FC = () => {
   const handleSearch = (event: ChangeEvent<HTMLInputElement>) => {
     const value = event.target.value;
     setSearchTerm(value);
-    console.log('a')
     startTransition(() => {
       const filtered = items.filter(item =>
         item.toLowerCase().includes(value.toLowerCase())

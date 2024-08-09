@@ -5,7 +5,6 @@ const Useeffect: React.FC = () => {
   const containerRef = useRef<HTMLDivElement | null>(null);
 
   useLayoutEffect(() => {
-    console.log('a')
     const container = containerRef.current;
     if (container) {
       container.scrollTop = container.scrollHeight;
