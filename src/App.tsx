@@ -5,6 +5,7 @@ import Useeffect from './pages/useEffect'
 import Usetransition from './pages/useTransition'
 import Usereducer from './pages/useReducer'
 import Usestate from './pages/useState'
+import Statelifting from './pages/stateLifting'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path='/usetransition' element={<Usetransition />} />
         <Route path='/usereducer' element={<Usereducer />} />
         <Route path='/usestate' element={<Usestate />} />
+        <Route path='/statelifting' element={<Statelifting />} />
       </Routes>
     </Router>
   )
